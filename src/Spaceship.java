@@ -52,17 +52,4 @@ public class Spaceship extends Sprite2D {
 
     public void paint(Graphics g) {
         g.drawImage(myImage, (int) x, (int) y, null);
-    }
-}
-if (isDead == 30) {
-    isDead = 0;
-    return true;
-} else
-    isDead = 0;
-return false;
-}
-
-public void paint(Graphics g) {
-    g.drawImage(myImage, (int) x, (int) y, null);
-}
-}
+    }}
